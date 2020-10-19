@@ -4,9 +4,7 @@ buttom = document.getElementById('buttom')
 
 const showData1 = (result)=>{
 let  i = 1
-let arrayImages = []
-console.log(result);  
-  
+
 img.src = `https://farm${result[0].farm}.staticflickr.com/${result[0].server}/${result[0].id}_${result[0].secret}.jpg`
 document.getElementById('foto').appendChild(img)   
     buttom.addEventListener('click', function(){
@@ -32,8 +30,7 @@ if( 'geolocation' in navigator){
     let text = 'cats'
     navigator.geolocation.getCurrentPosition(function(position){
         latitude = position.coords.latitude
-        longitude = position.coords.longitude
-         console.log(`latitude: ${latitude} longitude: ${longitude} texto: ${text}`);     
+        longitude = position.coords.longitude        
  
      },)  
 
