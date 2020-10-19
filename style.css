@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    background-image: url();
+
+
+}
+main{
+
+    margin: 0 auto;
+    margin-top: 5vh;
+
+
+}
+
+.back{
+    width: 60vw;
+    height: 63vh;
+    background-color: blue;
+    margin: 0 auto;   
+}
+.play{
+    width: 55vw;
+    height: 58vh;
+    margin: 0 auto;
+   
+    background-color: aliceblue;
+}
+
+#foto{
+    
+}
+
+input{
+
+    padding-bottom: 2px;
+}
+
+img{
+    
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 50%;
+}

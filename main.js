@@ -13,7 +13,7 @@ const showData = (result) =>{
 
 showData()
 
-cep.addEventListener('blur', (e)=>{
+cep.addEventListener('blur',(e)=>{
 
     let search = cep.value.replace("_","")
     const options = {
